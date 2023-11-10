@@ -1,0 +1,484 @@
+html {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img[src$='.svg'] {
+    width: 100%;
+}
+
+.lp-wrapper {
+    max-width: 430px;
+    margin: auto;
+    background-image: url(../images/bg-lp.jpg);
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* fv */
+
+#contents_fv {
+    position: relative;
+    margin-bottom: 260px;
+}
+
+.fv-bg video {
+    width: 100%;
+}
+
+.fv-cp {
+    margin-bottom: 4%;
+    padding: 0 2%;
+}
+
+.fv-cp img {
+    width: 100%;
+    height: auto;
+}
+
+.fv-ticket-box {
+    padding: 0px 2%;
+    display: inline-block;
+    position: absolute;
+    bottom: -220px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+/* チケットcss */
+
+.ticket-box {
+    border-radius: 6px;
+    background: #171717;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.ticket-box h2 {
+    border-radius: 6px 6px 0px 0px;
+    background: #ffc700;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ticket-box p {
+    color: #fff;
+}
+
+.ticket-offer-box {
+    padding: 4%;
+    margin-bottom: 20px;
+}
+
+.ticket-fee-box-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ticket-fee-box-text {
+    width: 50%;
+}
+
+.ticket-fee-box-text .great {
+    background-color: #ffc700;
+    border-radius: 30px;
+    color: #b40000;
+    padding: 5px 22px;
+    font-size: 14px;
+    width: auto;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+.ticket-fee-box-text .ticket-name {
+    font-size: 16px;
+}
+
+.ticket-fee-box-fee {
+    text-align: center;
+    width: 50%;
+}
+
+.ticket-fee-box-fee .former {
+    color: #ffc700;
+    font-size: 18px;
+    text-decoration: line-through;
+    margin-bottom: 1px;
+}
+
+.ticket-fee-box-fee .price {
+    background-color: #ffc700;
+    border-radius: 6px;
+    color: #b40000;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.ticket-fee-box-fee .price span {
+    font-size: 18px;
+}
+
+.ticket-fee-box-supplement {
+    margin: 10px 0;
+}
+
+.ticket-fee-box-supplement p {
+    color: #7e7e7e;
+    font-size: 10px;
+}
+
+/* button */
+
+.btn-cta a {
+    background-color: #fff;
+    border: 2px solid #b40000;
+    border-radius: 6px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 360px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b40000;
+    position: relative;
+}
+
+.btn-cta a img {
+    width: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10%;
+}
+
+.btn-etc {
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.btn-etc a {
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 20px auto 10px auto;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+.btn-etc a img {
+    width: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    padding-bottom: 1px;
+}
+
+/* audience */
+
+#contents_referee h2 {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+#contents_referee .referee-box > img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+#contents_referee .audience_wrapper {
+    background-image: url(../images/audience_bg.jpg);
+    padding: 60px 20px 20px 20px;
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#contents_referee .audience_wrapper .cp-01 {
+    margin: 10px 0 30px 0;
+}
+
+#contents_referee .audience_wrapper .cp-02 {
+    color: #ffc700;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+/* contents_app */
+
+#contents_app {
+    background-color: #ae0027;
+    padding: 20px;
+}
+
+#contents_app .logo img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+#contents_app .device img {
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+}
+
+#contents_app h2 {
+    background-color: #ffc700;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #171717;
+    padding: 14px 20px;
+    line-height: 1;
+}
+
+#contents_app .cp-01 {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+#contents_app .cp-01 > span {
+    color: #ffc700;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#contents_app .cp-02 {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+/* offer */
+
+#contents_offer {
+    padding: 20px 10px;
+}
+
+#contents_offer .btn-ticket-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 20px 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-box {
+    width: 85%;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-text {
+    width: 55%;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-fee {
+    width: 45%;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-text .great {
+    padding: 5px 16px;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-fee .price {
+    font-size: 28px;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-text .ticket-name {
+    font-size: 15px;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-fee .former {
+    font-size: 15px;
+}
+
+#contents_offer .ticket-offer-box .ticket-fee-box-supplement {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ラジオボタンを隠します */
+input[type='radio'] {
+    display: none;
+    width: 15%;
+}
+
+/* カスタマイズされたラベルスタイル */
+input[type='radio'] + label {
+    display: inline-block;
+    margin: 6px;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+/* ラジオボタンがチェックされた時のスタイル */
+input[type='radio']:checked + label {
+    border-color: #fff;
+}
+
+/* チェックされたラジオボタンにカスタムチェックマークを表示 */
+input[type='radio']:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: #ffc700;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contents_offer .contents_offer-box {
+    border-radius: 6px;
+    background: #171717;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+#contents_offer .contents_offer-box h2 {
+    color: #ffc700;
+    border: 1px solid #fff;
+    padding: 14px 0;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
+
+#contents_offer .accordion {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#contents_offer .accordion button {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ffc602;
+    cursor: pointer;
+    outline: none;
+    color: #ffc602;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+#contents_offer .accordion button .icon {
+    transition: transform 0.3s;
+    position: absolute;
+    right: 0;
+}
+
+#contents_offer .accordion button.active .icon {
+    transform: rotate(180deg);
+}
+
+#contents_offer .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    border-top: none;
+    margin-top: 20px;
+}
+
+#contents_offer .ticket-details-box {
+    margin-top: 30px;
+}
+
+#contents_offer .ticket-details-box .annotation-text {
+    margin-bottom: 10px;
+}
+
+#contents_offer .ticket-details-box .annotation-text p {
+    color: #ffc700;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+#contents_offer .ticket-details-box .point p {
+    background-color: #2a2a2a;
+    border: 1px solid #ffc700;
+    color: #ffc700;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#contents_offer .ticket-details-box .normal-point p {
+    border: none;
+}
+
+.accordion-content-list {
+    background-color: #ffc602;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.accordion-content-list p {
+    border: 1px solid #0d0d0d;
+    width: 50%;
+    padding: 6px 0;
+    color: #0d0d0d;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
