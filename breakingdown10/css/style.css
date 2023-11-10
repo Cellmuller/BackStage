@@ -3,6 +3,7 @@ html {
     letter-spacing: 1px;
     line-height: 1.7;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
 }
 
 body {
@@ -37,6 +38,8 @@ img[src$='.svg'] {
 
 .fv-bg video {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 .fv-cp {
@@ -143,6 +146,42 @@ img[src$='.svg'] {
 .ticket-fee-box-supplement p {
     color: #7e7e7e;
     font-size: 10px;
+}
+
+.ticket-details-box h3 {
+    color: #ffc602;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-bottom: 1px solid #ffc602;
+    padding-bottom: 10px;
+}
+
+.benefits-box {
+    background-color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+}
+
+.benefits-box .benefits-box-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffc602;
+    margin-bottom: 20px;
+}
+
+.benefits-box .benefits-box-text {
+    font-size: 14px;
+    color: #ffc602;
+}
+
+.benefits-img {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
 }
 
 /* button */
@@ -434,7 +473,7 @@ input[type='radio']:checked + label::after {
 
 #contents_offer .ticket-details-box .annotation-text p {
     color: #ffc700;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.5px;
     margin-bottom: 4px;
 }
@@ -481,4 +520,16 @@ input[type='radio']:checked + label::after {
 
 .content.active {
     display: block;
+}
+
+#contents_offer .contents_offer-box .ticket-box {
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}
+
+#contents_offer .contents_offer-box .btn-etc a img {
+    transform: rotateX(180deg);
+    padding-bottom: 0px;
+    margin-top: 2px;
 }
