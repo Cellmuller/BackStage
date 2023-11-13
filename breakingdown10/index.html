@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5TGRJ25');
+        </script>
+        <!-- End Google Tag Manager -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>BreakingDown10 / ブレイキングダウン10</title>
@@ -13,6 +27,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TGRJ25" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <main>
             <div class="lp-wrapper">
                 <section id="contents_fv">
@@ -24,7 +41,7 @@
                     </div>
 
                     <div class="fv-bg">
-                        <video autoplay loop muted playsinline>
+                        <video autoplay loop muted playsinline poster=“./images/fv-movie-poster.png.jpg” width=“375px” height=“550px”> 
                             <source src="./images/fv-movie.mp4" type="video/mp4" />
                         </video>
 
@@ -657,31 +674,39 @@
                 </section>
 
                 <section id="contents_overview">
-                    <img alt="拳極" />
-                    <p>presents</p>
-                    <img alt="BREAKING DOWN 10" />
-                    <p>2023.11.23 THU/HOL</p>
-                    <p>予定<br />※終了予定時刻 21:00※試合内容、イベント進行によって終了予定時間が前後することがありますのでご了承ください。</p>
+                    <div class="title">
+                        <picture class="logo">
+                            <source srcset="./images/partner_10-01.webp" type="image/webp" />
+                            <img src="./images/partner_10-01.png" alt="極極" />
+                        </picture>
+                        <p>presents</p>
+                        <img src="./images/bd_logo_v10.png" alt="BreakingDown10" />
+                        <p class="day">2023.11.23 THU/HOL</p>
+                        <p>(予定)<br />※終了予定時刻 21:00※試合内容、イベント進行によって終了予定時間が前後することがありますのでご了承ください。</p>
+                    </div>
 
-                    <h3>アーカイブ</h3>
-                    <p>アーカイブ配信準備完了後 ～ 2023年11月30日(木) 23:59</p>
-                    <p>※アーカイブとは、リアルタイムで見れないお客様も期間内であればいつでもご視聴いただける機能となります。※アーカイブ視聴にはPPVのご購入が必要となります。</p>
+                    <div class="text">
+                        <h3>アーカイブ</h3>
 
-                    <h3>
-                        視聴可能デバイス<br />
-                        (BreakingDown LIVE)
-                    </h3>
+                        <p>アーカイブ配信準備完了後 ～ 2023年11月30日(木) 23:59</p>
+                        <p class="annotation">※アーカイブとは、リアルタイムで見れないお客様も期間内であればいつでもご視聴いただける機能となります。※アーカイブ視聴にはPPVのご購入が必要となります。</p>
 
-                    <p>
-                        スマートフォン / タブレット <br />
-                        （Google Chrome / Safari）<br />
-                        パソコン<br />
-                        （Google Chrome / Firefox / Microsoft Edge / Safari）<br />
-                        テレビ <br />
-                        （Android TV / Amazon FireTV / Apple TV / FireTV Stick / Chromecast / Chromecast with Google TV）
-                    </p>
+                        <h3>
+                            視聴可能デバイス<br />
+                            (BreakingDown LIVE)
+                        </h3>
 
-                    <p>＊スマートフォンやパソコンをテレビと接続するには、 必ず別途有線ケーブルが必要となりますのでご了承ください。</p>
+                        <p>
+                            スマートフォン / タブレット <br />
+                            （Google Chrome / Safari）<br />
+                            パソコン<br />
+                            （Google Chrome / Firefox / Microsoft Edge / Safari）<br />
+                            テレビ <br />
+                            （Android TV / Amazon FireTV / Apple TV / FireTV Stick / Chromecast / Chromecast with Google TV）
+                        </p>
+
+                        <p class="annotation">＊スマートフォンやパソコンをテレビと接続するには、 必ず別途有線ケーブルが必要となりますのでご了承ください。</p>
+                    </div>
                 </section>
             </div>
         </main>
@@ -689,45 +714,3 @@
         <script src="./js/common.js"></script>
     </body>
 </html>
-
-<!-- 
-
-アプリ割チケット(新規会員)
-                                        
-<a class="btn-buy" href="https://bdlive.jp/home?room_id=OIYWRqRoN2LCPRaWccwO" target="_blank">
-    <picture>
-        <img src="./main/img/shape_btn-octagon03-bk.svg" width="400px">
-    </picture>
-    <p>購入する</p>
-</a>
-
-
-アプリ割チケット(既存会員)
-                                        
-<a class="btn-buy" href="https://bdlive.jp/home?room_id=OIYWRqRoN2LCPRaWccwO" target="_blank">
-    <picture>
-        <img src="./main/img/shape_btn-octagon03-bk.svg" width="400px">
-    </picture>
-    <p>購入する</p>
-</a>
-
-
-通常チケット
-                                        
-<a class="btn-buy" href="https://bdlive.jp/home?room_id=OIYWRqRoN2LCPRaWccwO" target="_blank">
-    <picture>
-        <img src="./main/img/shape_btn-octagon03-bk.svg" width="400px">
-    </picture>
-    <p>購入する</p>
-</a>
-
-
-プレミアムチケット
-                                        
-<a class="btn-buy" href="https://bdlive.jp/home?room_id=OIYWRqRoN2LCPRaWccwO" target="_blank">
-    <picture>
-        <img src="./main/img/shape_btn-octagon03-bk.svg" width="400px">
-    </picture>
-    <p>購入する</p>
-</a>
- -->
