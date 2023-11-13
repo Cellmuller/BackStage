@@ -8,6 +8,7 @@ html {
 
 body {
     background-image: url(../images/bg-pc.jpg);
+    background-image: url(../images/bg-pc.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -49,6 +50,7 @@ img[src$='.svg'] {
     max-width: 430px;
     margin: auto;
     background-image: url(../images/bg-lp.jpg);
+    background-image: url(../images/bg-lp.webp);
     background-attachment: fixed;
     background-size: contain;
     background-color: #851a00;
