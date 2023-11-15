@@ -363,14 +363,20 @@ img[src$='.svg'] {
 }
 
 #contents_offer .btn-ticket-list {
+    border-bottom: 1px solid #fff;
+    margin: 0 0 20px 0;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+#contents_offer .cpa_01,
+#contents_offer .cpa_02,
+#contents_offer .cpa_03,
+#contents_offer .cpa_04 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #fff;
-    margin: 0 0 20px 0;
-    position: relative;
-    padding-bottom: 50px;
 }
 
 #contents_offer .ticket-offer-box .ticket-fee-box-box {
@@ -399,12 +405,6 @@ img[src$='.svg'] {
 
 #contents_offer .ticket-offer-box .ticket-fee-box-fee .former {
     font-size: 15px;
-}
-
-#contents_offer .ticket-offer-box .ticket-fee-box-supplement {
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 /* ラジオボタンを隠します */
